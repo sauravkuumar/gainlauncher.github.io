@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+  }
+  .sidebar {
+    
+  font-family: cursive;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+  display: block;
+  justify-content: center;
+  transition: 0.3s;
+}
+.sidebar .logout{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.sidebar .logout:hover{
+  color: BLACK;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 5rem;
+  margin-left: 50px;
+}
+
+#main {
+  transition:  0.5s;
+}
+.openbtn h1{
+  font-size: 3rem;
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+  color: black;
+  font-family: cursive;
+ 
+}
+.openbtn {
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: blueviolet;
+  width: 100%;
+  color: black;
+  border: none;
+  font-weight: bolder;
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  height: 8rem;
+}
+.openbtn:hover {
+  background-color: blueviolet;
+}
+
+@keyframes colorChange {
+        0% { background-color: #ee6868; }
+        50% { background-color: #6d51f8; }
+        100% { background-color: rgb(242, 242, 173) }
+      }
+  
+      /* Apply the animation to the element */
+      .openbtn {
+        width: 100%;
+        height: 8rem;
+        animation: colorChange 30s infinite;
+      }
+      .sidebar {
+        width: 0;
+        height: 100%;
+        animation: colorChange 30s infinite;
+      }
+
+
+
+      .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .boxes h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+      }
+  .boxes .custom-box1 {
+    width: 600px;
+    height: 200px;
+    background-color: #ef4c4c;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .boxes .custom-box2 {
+    width: 600px;
+    height: 200px;
+    background-color: #def364;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .boxes .custom-box3 {
+    width: 600px;
+    height: 200px;
+    background-color: #64c5f2;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .boxes .custom-box4 {
+    width: 600px;
+    height: 200px;
+    background-color: #8371ec;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .boxes .custom-box5 {
+    width: 600px;
+    height: 200px;
+    background-color: #7b1ba8;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .boxes .custom-box6 {
+    width: 600px;
+    height: 200px;
+    background-color: #42ea8e;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .custom-box {
+      width: 100%;
+    }
+  }
+
+
+  .container{
+    margin: 2rem;
+  }
+  .container h2{
+    font-size: 3rem;
+  }
+  .container .profile-pic h2{
+    font-size: 1rem;
+  }
+  .container .profile-pic{
+    font-size: 2rem;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .profile-pic img{
+    border-radius: 50%;
+    background-color: grey;
+    height: 30rem;
+    width: 30rem;
+  }
