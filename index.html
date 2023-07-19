@@ -3,119 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gain_Launcher</title>
+  <title>Responsive Website</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
-  <style>
-    /* Reset some default styles */
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
 
-    /* Add your custom styles here */
-    /* For example: */
-    header {
-        background-color: #6d51f8;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-      .banner h2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      h1{
-        color: yellow;
-      }
-      nav {
-        background-color: #ee6868;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-      }
-  
-      nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-      }
-  
-      nav ul li {
-        margin: 0 10px;
-      }
-  
-      nav ul li a {
-        color: #fff;
-        text-decoration: none;
-      }
-  
-      main {
-        font-family: cursive;
-      }
-      h2{
-        padding: 20px;
-      }
-      .banner img{
-        width: 100%;
-      }
-  
-      footer {
-        background-color: #6d51f8;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-      @keyframes colorChange {
-        0% { background-color: #ee6868; }
-        50% { background-color: #6d51f8; }
-        100% { background-color: rgb(242, 242, 173) }
-      }
-  
-      /* Apply the animation to the element */
-      .animated-background {
-        width: 100%;
-        height: 100vh;
-        animation: colorChange 30s infinite;
-      }
-
-
-      @keyframes colorChange1 {
-        0% { background-color: #ee6868; }
-        50% { background-color: #6d51f8; }
-        100% { background-color: rgb(242, 242, 173) }
-      }
-  
-      /* Apply the animation to the element */
-      .animated-background1 {
-        width: 100%;
-        height: 70vh;
-        animation: colorChange1 30s infinite;
-      }
-    /* Add responsive styles here */
-    /* For example: */
-    @media (max-width: 768px) {
-        header, footer {
-            font-size: 18px;
-          }
-    
-          nav {
-            font-size: 14px;
-          }
-        }
-
-    @media (max-width: 480px) {
-      header, footer {
-        font-size: 16px;
-      }
-      nav {
-        font-size: 12px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="animated-background">
@@ -126,7 +17,7 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="demo.php">Demo Login</a></li>
             <li><a href="#" onclick="toggleModal()">Login</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -140,14 +31,6 @@
                 Gain Launcher Platform.</h2>
             <img src="https://i.ibb.co/HB09r75/Gain-lover.png">
             </section>
-            <style>
-              .banner img{
-                width: 100%;
-                height: 300px;
-                background-color:  rgb(222, 105, 254);
-                box-shadow:  0px 0px 50px 1.5px  ;
-              }
-            </style>
             
 </div>
 </main>
@@ -165,186 +48,81 @@
   
   <div class="box1">
     <img src="https://i.ibb.co/VmJWR0N/Untitled-design-1.png">
-    <a href="https://www.instagram.com/saurav_kuumar_/" ><h3>SAURAV KUMAR</h3> </a>
-  </div>
-  <div class="box1">
-    <img src="data:image/webp;base64,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">
-    <a href="https://www.instagram.com/the_vicky_arya/" ><h3>THE VICKY ARYA</h3> </a>
+    <h3>SAURAV KUMAR</h3>
   </div>
  </div>
  
 </div>
 <style>
-  .heading h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: cursive;
-    color: #0e0349;
-    text-decoration: underline;
-  }
-  .container2{
-    margin: 2px;
-    display: flex;
-  }
-  .container2 .box1{
-    width: 400px;
-    height: 100px;
-    background-color:  rgb(222, 105, 254);
-    box-shadow:  0px 0px 50px 1.5px  ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-    border-radius: 1rem;
-  }
-  .container2 .box1 h3{
-    color: rgb(68, 65, 65);
-    font-size: 1rem;
-    margin: 0.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .container2 .box1 img{
-    width: 3.5rem;
-    border-radius: 50%;
-    margin: 0.2rem;
-  }
-  .container{
-    display: flex;
-    align-items: wrap;
-    justify-content: center;
-  }
-  .container .box{
-    background-color:  rgb(242, 242, 173);
-    height: 10rem;
-    width: 20rem;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow:  0px 0px 50px 1.5px  ;
-  }
-  h3{
-    font-family: cursive;
-    color: rgb(5, 5, 5);
-  }
+  
 </style>
 
   <footer>
     &copy; 2023 Gain_Launcher. All rights reserved.
   </footer>
-  <script>
-    ScrollReveal().reveal('.box1', {
-      duration: 2000,
-      distance: '200px',
-      origin: 'left',
-      interval: 500
-    });
-  </script>
+  <script src="js/script.js"></script>
 
 
   <!-------RSGISTRATION AND LOGIN FORM-->
-
-
   <div id="modal" class="modal">
     <div class="modal-content">
-        <span class="close" onclick="toggleModal()">&times;</span>
-        <h2>Registration Form</h2>
-        <form action="auth.php" method="post" enctype="multipart/form-data">
-          <h4>Full Name : </h4>
-          <style>
-            .input-box{
-              text-decoration: none;
-            }
-            form{
-              display: wrap;
-              align-items: center;
-              justify-content: center;
-              text-decoration: none;
-            }
-          </style>
-        <input
-        class="input-box"
-        type="text"
-        name="fname"
-        required
-        placeholder="Name" id="fname" name="fname"required>
-        <h4>Mobile Number : </h4>
-      <input
-        class="input-box"
-        type="number"
-        name="number"
-        required
-        placeholder="Enter your number" id="number" name="number" required>
-        <h4>Password : </h4>
-        <input
-        class="input-box"
-        type="text"
-        name="fname"
-        required
-        placeholder="Enter Strong Password" id="fname" name="fname"required>
-        <h4>Image :</h4>
-        <input type="file" name="image" accept="image/*" required>
-        <input type="submit" value="Upload"><br>
-
-      <input
-        class="button"
-        type="submit"
-        name="submit"
-        value="submit">
+      <div class="container5">
+      <h2>Registration Form</h2>
+      <form method="post" action="register.php" enctype="multipart/form-data">
+      <span class="close" onclick="toggleModal()">&times;</span>
+      <form id="registration-form" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+        <label for="profile-pic">Profile Picture:</label>
+        <input type="file" id="profilePicPath" name="profile-pic" accept="image/*" required>
+      </div>
+        <div class="form-group">
+          <input type="submit" value="Register">
+        </div>
       </form>
-      
-<a href="#" onclick="toggleModal()">LOGIN NOW</a>
-<span class="close" onclick="toggleModal()"></span>
-
+      </form>
     </div>
-</div>
+
+
+
+    <div class="container5">
+      <h2>Login Here</h2>
+        <form method="POST" action="login.php">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="form-group">
+          <input type="submit" value="Login">
+          
+        </div>
+      </form>
+  
+    </div>
+
+
 <style>
-  /* Styling for pop-up form */
-  .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  .modal-content {
-      background-color: rgb(242, 242, 173);
-      box-shadow:  0px 0px 50px 1.5px  ;
-      border-radius: 1rem;
-      margin: 15% auto;
-      padding: 20px;
-      border: 1px solid #232222;
-      width: 300px;
-      
-      
-  }
-
-  .close {
-      color: #aaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-  }
-
-  .close:hover,
-  .close:focus {
-      color: black;
-      text-decoration: none;
-      cursor: pointer;
-  }
+  
 </style>
-<script>
+<script src="js/script.js">
   // Function to display and hide the pop-up form
-  function toggleModal() {
-      var modal = document.getElementById("modal");
-      modal.style.display = (modal.style.display === "block") ? "none" : "block";
-  }
+  
 </script>
 </body>
 </html>
