@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Dashboard</title>
-  <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
 </head>
-  <script src="js/dashboard.js">
+  <script src="dashboard.js">
     </script>
 
 <body>
