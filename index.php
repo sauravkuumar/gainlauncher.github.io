@@ -6,7 +6,7 @@
   <title>Gain_Launcher</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="animated-background">
